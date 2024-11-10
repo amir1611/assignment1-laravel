@@ -66,55 +66,131 @@ class ProfileController extends Controller
         // Update Moin's data
         'moin' => [
             'name' => 'Moin',
-            'title' => 'UI/UX Designer',
-            'image' => '/path/to/image.jpg', 
-            'rating' => 4,
-            'about' => "Creative UI/UX Designer with 4+ years of experience in crafting intuitive digital experiences. I combine user-centered design principles with modern aesthetics to create engaging and functional interfaces.",
+            'title' => 'Web Developer',
+            'image' => '/images/moin.png', 
+            'rating' => 5,
+            'about' => "Seasoned web designer and developer with hands on experience working with clients from different industries, handling full SDLC, with dynamic skillset",
             'skills' => [
+                ['name' => 'Java', 'level' => 85],
+                ['name' => 'JavaScript', 'level' => 80],
+                ['name' => 'HTML', 'level' => 90],
+                ['name' => 'CSS', 'level' => 85],
+                ['name' => 'PHP', 'level' => 80],
+                ['name' => 'React.js', 'level' => 82],
+                ['name' => 'Laravel', 'level' => 88],
+                ['name' => 'Bootstrap', 'level' => 85],
+                ['name' => 'Python', 'level' => 90],
+                ['name' => 'Android Studio', 'level' => 75],
+                ['name' => 'Azure', 'level' => 78],
+                ['name' => 'MySQL', 'level' => 85],
+                ['name' => 'Supabase', 'level' => 75],
+                ['name' => 'Git', 'level' => 90],
+                ['name' => 'GitHub', 'level' => 88],
+                ['name' => 'GitLab', 'level' => 80],
+                ['name' => 'Sourcetree', 'level' => 70],
+                ['name' => 'Monday', 'level' => 70],
+                ['name' => 'ClickUp', 'level' => 68],
+                ['name' => 'SRS', 'level' => 85],
+                ['name' => 'SDD', 'level' => 83],
+                ['name' => 'UML', 'level' => 80],
+                ['name' => 'Manual Testing', 'level' => 80],
+                ['name' => 'Automated Testing', 'level' => 75],
                 ['name' => 'Figma', 'level' => 95],
                 ['name' => 'Adobe XD', 'level' => 92],
-                ['name' => 'Prototyping', 'level' => 88],
-                ['name' => 'User Research', 'level' => 85],
-                ['name' => 'HTML/CSS', 'level' => 75],
-                ['name' => 'Motion Design', 'level' => 70],
+                ['name' => 'Photoshop', 'level' => 85],
+                ['name' => 'WordPress', 'level' => 90],
+                ['name' => 'Joomla', 'level' => 70],
+                ['name' => 'MS Office', 'level' => 88],
             ],
             'experience' => [
                 [
-                    'position' => 'Product Manager',
-                    'company' => 'Intern, Pandai Education Sdn. Bhd.',
-                    'period' => 'July 2024 - October 2024',
+                    'position' => 'Web Developer',
+                    'company' => 'Universiti Malaysia Pahang Al-Sultan Abdullah',
+                    'period' => 'Feb 2024 - Present',
+                    'location' => 'Pekan, Pahang',
                     'description' => [
-                        'Led two major projects as product manager and UX designer, improving product development and company workflows.',
-                        'Exceeded monthly active user (MAU) targets by 50%, demonstrating strong ability to drive user engagement.',
-                        'Planned the development and launch of new features, including Pandai Class Lesson and Pandai Enrichment Class.',
-                        'Established OKRs for product improvement initiatives that boosted student engagement.',
-                        'Conducted thorough research for user needs, developing detailed user personas.',
-                        'Defined information architecture and user flows ensuring intuitive experiences.'
+                        'Developing and automating a hostel task management system, targeting to double efficiency with features designed to reduce administrative workload by 70%.',
+                        'Designing and implementing a user-centric UI with a real-time notification system, aiming to minimize missed deadlines and improve task-tracking efficiency.',
+                        'Collaborating with stakeholders through iterative development and testing phases, focusing on system reliability and user acceptance with comprehensive documentation.'
                     ]
                 ],
                 [
-                    'position' => 'Full Stack Developer',
-                    'company' => 'Full Time, Yayasan Pendidikan Rakyat',
-                    'period' => 'May 2022 - April 2024',
+                    'position' => 'Founder',
+                    'company' => 'Moinfinity Digital',
+                    'period' => 'Sep 2023 – Present',
                     'description' => [
-                        'Led the development of LMS, overseeing full-stack implementation and project management.',
-                        'Addressed technical issues and provided support to end-users, ensuring prompt resolution.',
-                        'Designed and optimized database structures to improve data retrieval and application performance.',
-                        'Collaborated with UI/UX designers to create user-friendly interfaces, boosting user engagement.'
+                        'Founded Moinfinity Digital, achieving 200% client growth in the first year.',
+                        'Managed the entire SDLC independently, improving client efficiency by 30%, maintaining a 95% satisfaction rate, and mentoring employees in sales and client communication.',
+                        'Dealt with clients from different industries and solved their problems through digital solutions while maintaining professional communication and handling conflicts.'
+                    ]
+                ],
+                [
+                    'position' => 'Web Designer & Developer',
+                    'company' => 'Freelancer',
+                    'period' => 'Aug 2020 - Present',
+                    'location' => 'Remote',
+                    'description' => [
+                        'Acquired projects through strong sales and negotiations, designing websites that tripled online visibility and enhanced credibility through user-friendly, responsive designs.',
+                        'Developed solutions that saved clients 3-6 hours daily, building long-term relationships by effectively handling conflicts.',
+                        'Created complex systems that significantly improved client efficiency and streamlined operations.'
+                    ]
+                ],
+                [
+                    'position' => 'Front of the House Head',
+                    'company' => 'KD Hongkong Group Sdn. Bhd.',
+                    'period' => 'Jul 2023 – Oct 2023',
+                    'location' => 'Kuala Lumpur & Penang',
+                    'description' => [
+                        'Delivered exceptional customer service, improving satisfaction by 50% and boosting sales by 10%, leading to a promotion.',
+                        'Managed customer relations, resolved issues effectively, and trained multilingual staff, increasing efficiency by 50% and service satisfaction by 40%.',
+                        'Enhanced customer retention by 40% and visits by 90%, earning the "Employee Excellence Award" within 3 months.'
+                    ]
+                ],
+                [
+                    'position' => 'Web Application Developer',
+                    'company' => 'MAHIRAN DIGITAL SDN. BHD.',
+                    'period' => 'Dec 2020 – April 2022',
+                    'location' => 'Pekan, Pahang',
+                    'description' => [
+                        'Worked in teams and transformed clients’ requirements into structured documents, SRS (Software Requirement Specification).'
                     ]
                 ]
             ],
             'education' => [
                 [
-                    'degree' => 'BA in Digital Design',
-                    'school' => 'Design Institute',
-                    'year' => '2019',
-                    'description' => 'Focus on Interactive Design and User Experience'
+                    'degree' => 'Bachelor of Computer Science (Software Engineering)',
+                    'school' => 'Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)',
+                    'location' => 'Pekan, Pahang, Malaysia',
+                    'year' => 'Expected Graduation: Final Semester',
+                    'GPA' => 'Major GPA: 3.03 / 4.0',
+                    'faculty' => 'Faculty of Computing',
+                    'coursework' => [
+                        'Database Systems',
+                        'Artificial Intelligence',
+                        'Problem Solving',
+                        'System Analysis & Design',
+                        'Data Structures & Algorithms',
+                        'Object Oriented Programming',
+                        'Data & Network Security',
+                        'Software Testing',
+                        'Machine Learning Applications',
+                        'Software Project Management',
+                        'Software Evolution & Maintenance'
+                    ]
+                ],
+                [
+                    'degree' => 'Higher Secondary Certificate (HSC)',
+                    'school' => 'Birshrestha Munshi Abdur Rouf Public College',
+                    'location' => 'Dhaka, Bangladesh',
+                    'year' => 'Year of Graduation',
+                    'GPA' => 'GPA: 4.08 / 5.0',
+                    'group' => 'Science',
+                    'board' => 'Dhaka Board'
                 ]
             ],
             'social' => [
-                'github' => 'https://github.com/moinuddin',
-                'linkedin' => 'https://linkedin.com/in/moinuddin'
+                'github' => 'https://github.com/moin-ai',
+                'linkedin' => 'https://linkedin.com/in/arifuzzaman-moin'
             ],
         ],
 
