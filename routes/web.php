@@ -27,3 +27,6 @@ Route::get('/our-team/{persona}/about', [ProfileController::class, 'about'])
 Route::get('/our-team/{persona}/contact', [ProfileController::class, 'contact'])
     ->where('persona', 'amir|ahmed|maged|moin')
     ->name('contact');
+
+ Route::match(['GET', 'POST'], '/our-team/{persona}/contact', [ProfileController::class, 'contact']);
+    
