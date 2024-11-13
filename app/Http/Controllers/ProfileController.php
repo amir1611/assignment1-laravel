@@ -9,7 +9,7 @@ class ProfileController extends Controller
             'name' => 'Amir',
             'title' => 'Full Stack Developer',
             'image' => '/images/amir.jpeg',
-            'rating' => 4,
+            'rating' => 5,
             'about' => "Computer Science graduate with hands-on experience in product management, web development, UX design, and market research in EdTech and Finance Solutions. Skilled in competitor analysis, user research, and data-driven product improvements. Proven ability to work with cross-functional teams to deliver seamless product experiences and manage feature development. ",
             'skills' => [
                 ['name' => 'Product Management', 'level' => 90],
